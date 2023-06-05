@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+.white-box1{
+    height: 76px;
+    width: 200px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.text-align{
+display: inline-block;
+background-color: #a4b3e9;
+padding: 10px;
+margin: 20px;
+}
+
+.q1--horizontality .white-box .text-align{
+    font-size: 16px;
+}
+
+.white-box2{
+    width: 200px;
+    padding: 20px 0;
+    background-color: #fff;
+
+}
+
+.margin{
+    margin: 0 auto;
+    width: 90px;
+    background-color: #a4b3e9;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.q1--horizontality .white-box .margin{
+    font-size: 16px;
+}
+
+.table{
+    display: table;
+}
+
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.table p{
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.position{
+    position: relative;
+}
+
+.container p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a4b3e9;
+    padding: 10px;
+}

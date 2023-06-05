@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 回答はここから */
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    width: 200px;
+    padding: 10px;
+    margin: 0 30px;
+    background-color: #d2b48c;
+    outline: 10px solid #655;
+    border-radius: 13px;
+}
