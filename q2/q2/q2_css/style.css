@@ -1,17 +1,24 @@
 @charset "UTF-8";
 /* 回答はここから */
 
-ul{
+ul {
     display: flex;
     justify-content: center;
 }
 
-li{
+li {
+    display: flex;
     list-style: none;
+    margin: 0 30px;
+    outline: 10px solid #655;
+    background-color: #655;
+    padding: 5px;
+
+}
+
+.outline {
     width: 200px;
     padding: 10px;
-    margin: 0 30px;
     background-color: #d2b48c;
-    outline: 10px solid #655;
     border-radius: 13px;
 }
