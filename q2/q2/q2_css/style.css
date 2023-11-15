@@ -1,16 +1,11 @@
 @charset "UTF-8";
 /* 回答はここから */
 
-<<<<<<< HEAD
 ul {
-=======
-ul{
->>>>>>> 0a5687b6bfc1e9f8d43f0d0b7640ce8c0e3db335
     display: flex;
     justify-content: center;
 }
 
-<<<<<<< HEAD
 li {
     display: flex;
     list-style: none;
@@ -25,14 +20,5 @@ li {
     width: 200px;
     padding: 10px;
     background-color: #d2b48c;
-=======
-li{
-    list-style: none;
-    width: 200px;
-    padding: 10px;
-    margin: 0 30px;
-    background-color: #d2b48c;
-    outline: 10px solid #655;
->>>>>>> 0a5687b6bfc1e9f8d43f0d0b7640ce8c0e3db335
     border-radius: 13px;
 }

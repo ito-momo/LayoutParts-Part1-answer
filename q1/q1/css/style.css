@@ -1,40 +1,31 @@
 @charset "UTF-8";
 /* 回答はここから */
 
-.white-box1{
-<<<<<<< HEAD
+.white-box1 {
     width: 200px;
     padding: 20px 0;
-=======
-    height: 76px;
-    width: 200px;
->>>>>>> 0a5687b6bfc1e9f8d43f0d0b7640ce8c0e3db335
     background-color: #fff;
     text-align: center;
 }
 
-.text-align{
-display: inline-block;
-background-color: #a4b3e9;
-padding: 10px;
-<<<<<<< HEAD
-=======
-margin: 20px;
->>>>>>> 0a5687b6bfc1e9f8d43f0d0b7640ce8c0e3db335
+.text-align {
+    display: inline-block;
+    background-color: #a4b3e9;
+    padding: 10px;
 }
 
-.q1--horizontality .white-box .text-align{
+.q1--horizontality .white-box .text-align {
     font-size: 16px;
 }
 
-.white-box2{
+.white-box2 {
     width: 200px;
     padding: 20px 0;
     background-color: #fff;
 
 }
 
-.margin{
+.margin {
     margin: 0 auto;
     width: 90px;
     background-color: #a4b3e9;
@@ -43,40 +34,47 @@ margin: 20px;
 }
 
 
-.q1--horizontality .white-box .margin{
+.q1--horizontality .white-box .margin {
     font-size: 16px;
 }
 
-.table{
+.table {
     display: table;
 }
 
-.table-cell{
+.table-cell {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 
 }
 
-.table p{
+.table p {
     display: inline-block;
     background-color: #fff;
     padding: 10px;
 
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.flex-container p {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px;
 
-.position{
+}
+
+
+.position {
     position: relative;
 }
 
-.container p{
+.container p {
     position: absolute;
     top: 50%;
     left: 50%;
