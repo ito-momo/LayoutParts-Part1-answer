@@ -1,45 +1,51 @@
 @charset "UTF-8";
 
-.content{
-    display: table;
-    width: 100%;
-    margin-bottom: 50px;
+.content {
+  display: table;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
-.red,.bule,.yellow,.green,.pink,.orange,.light-bule{
-    display: table-cell; 
-    padding: 20px ;
-    text-align: center;
+.red,
+.bule,
+.yellow,
+.green,
+.pink,
+.orange,
+.light-bule {
+  display: table-cell;
+  padding: 20px;
+  text-align: center;
 }
 
-.red{
-    width: 300px;
-    background-color: #ff7b7b;
+.red {
+  width: 300px;
+  background-color: #ff7b7b;
 }
 
-.bule{
-    background-color: #7b86ff;
+.bule {
+  background-color: #7b86ff;
 }
 
-.yellow{
-    width: 300px;
-    background-color: #fffb27;
+.yellow {
+  width: 300px;
+  background-color: #fffb27;
 }
 
-.green{
-    background-color: #7bff91;
+.green {
+  background-color: #7bff91;
 }
 
-.pink{
-    width: 400px;
-    background-color: #ff7be2;
+.pink {
+  width: 400px;
+  background-color: #ff7be2;
 }
 
-.orange{
-    width: 400px;
-    background-color: #ffc67b;
+.orange {
+  width: 400px;
+  background-color: #ffc67b;
 }
 
-.light-bule{
-    background-color: #7bf2ff;
+.light-bule {
+  background-color: #7bf2ff;
 }
