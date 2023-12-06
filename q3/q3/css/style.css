@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-table {
+.cell--table {
   width: 100%;
   table-layout: fixed;
 }
@@ -19,11 +19,11 @@ td:first-child {
 }
 
 tr:nth-child(2n) {
-  background-color: #d5ffc7;
+  background-color: #bcbcbc;
 }
 
 tr:nth-child(2n+1) {
-  background-color: #bcbcbc;
+  background-color: #d5ffc7;
 }
 
 th,
